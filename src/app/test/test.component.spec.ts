@@ -1,6 +1,6 @@
 import { TestComponent } from './test.componetn';
 
-describe('FormulaComponent', () => {
+describe('TestComponent', () => {
 
     let component: TestComponent;
 
