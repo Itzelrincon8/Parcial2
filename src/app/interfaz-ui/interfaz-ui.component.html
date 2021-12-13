@@ -1,1 +1,21 @@
-<p>interfaz-ui works!</p>
+<div class="divcontenedor">
+
+    Ingresa el valor del lado, ancho y la altura de tu prisma regular
+    
+    <br>
+    <div class="divinput">
+        <span class="input-group-addon"><i class="glyphicon glyphicon-pencil"></i></span> 
+        Lado: <input id="b" [(ngModel)]="b" type="number" class="form-control b" name="b" placeholder="0.0">
+        
+        <span class="input-group-addon"><i class="glyphicon glyphicon-pencil"></i></span> 
+        Ancho: <input id="b" [(ngModel)]="b" type="number" class="form-control b" name="b" placeholder="0.0">
+        
+        <span class="input-group-addon"><i class="glyphicon glyphicon-pencil"></i></span> 
+        Alto: <input id="b" [(ngModel)]="b" type="number" class="form-control b" name="b" placeholder="0.0"> 
+        =
+    </div>
+    <br>
+    <button (click)="getResultado()">Calcular</button>
+    <br>
+    <span class="resultado"><h1 class = "etqResult">Resultado = </h1>{{ resultado }}</span>
+</div>

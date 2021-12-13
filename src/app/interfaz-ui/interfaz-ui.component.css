@@ -1,0 +1,15 @@
+.divcontenedor{
+    border: 2px outset black;
+    justify-content: space-between;
+    align-items:center;
+    padding:10px;
+    background-color:cyan;
+}
+
+.divinput{
+    display:flex;
+    border: 2px outset black;
+    width: auto;
+    height: auto;
+    align-items:center;
+}
