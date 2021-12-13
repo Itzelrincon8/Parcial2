@@ -1,5 +1,3 @@
-//pruebas
-
 import { TestComponent } from './test.componetn';
 
 describe('FormulaComponent', () => {

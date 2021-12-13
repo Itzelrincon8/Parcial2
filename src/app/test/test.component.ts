@@ -1,5 +1,3 @@
-//formula
-
 export class TestComponent{
 
     y: number = 0;
